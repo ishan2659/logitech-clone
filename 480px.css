@@ -1,0 +1,757 @@
+@media only screen and (min-width: 300px) and (max-width: 718px) {
+  body {
+    font-size: 14px;
+    max-width: 100%;
+    margin: 0px;
+    overflow-x: hidden;
+  }
+  * {
+    font-family: brown, Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+  }
+
+  .header1 {
+    display: none;
+  }
+  nav.navbar {
+    display: none;
+  }
+  .main {
+    height: 456px;
+    overflow-x: hidden;
+    width: 100%;
+    background-image: url(https://resource.logitech.com/w_420,h_1024,c_limit,q_auto,f_auto,dpr_2.0/d_transparent.gif/content/dam/logitech/en/homepage/mx-brio-hpb-mobile.jpg?v=1);
+    background-size: cover;
+    background-position: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+  .container-main-navbar {
+    height: 50px;
+    width: 100%;
+    margin-left: none;
+    margin-right: none;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: none;
+  }
+  .main-navbar {
+    display: flex;
+    height: 50px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .hamburger-container {
+    height: 48px;
+    width: 48px;
+    left: -15px;
+  }
+  .hamburger-container i {
+    padding-left: 35%;
+    padding-top: 24px;
+  }
+  .logo-main-container {
+    align-items: center;
+    display: flex;
+
+    width: 118px;
+    height: 36px;
+  }
+  .logo-main {
+    margin-top: 28px;
+    width: 94.4px;
+    height: 28.8px;
+    margin-left: 15px;
+
+    background-image: url(Logitech_logo-copy-1024x311.png);
+    background-size: cover;
+  }
+
+  form {
+    display: none;
+  }
+
+  .searchbtn-container {
+    height: 48px;
+    width: 48px;
+  }
+  .searchbtn-container i {
+    padding-left: 35%;
+    padding-top: 24px;
+  }
+
+  .banner-content-container {
+    box-sizing: border-box;
+    margin-right: 24px;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: calc(100% - 24px);
+    height: 65.78%;
+  }
+  .banner-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 3.6%;
+    height: 100%;
+  }
+  .text-banner {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+  }
+  .text h1 {
+    text-align: center;
+    font-size: 30px;
+  }
+  .text p {
+    font-size: 15px;
+    font-weight: 150;
+    text-align: center;
+  }
+  .empty-banner {
+    height: 75vh;
+    width: 75vh;
+  }
+  .a-btns {
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    padding-left: 3.6%;
+    justify-content: space-between;
+
+    width: 100%;
+  }
+  .button-container-learn {
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+  }
+  .button-container-learn:hover {
+    background-color: transparent;
+
+    border: 1px solid white;
+    transition: 0.3s;
+  }
+  .learn-more {
+    width: 39.14%;
+    height: 81.8%;
+  }
+  .shop-now {
+    width: 39.14%;
+    height: 81.8%;
+  }
+  .button-container-shop {
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+  }
+  .button-container-shop:hover {
+    background-color: transparent;
+
+    border: 1px solid white;
+    transition: 0.3s;
+  }
+  .media-cards {
+    margin-top: 80px;
+    box-sizing: border-box;
+    padding-left: 30px;
+    margin-top: 40px;
+    padding-right: 30px;
+    width: 100%;
+    margin-bottom: 120px;
+  }
+  .cards-container {
+    display: flex;
+    flex: wrap;
+    width: 100%;
+    flex-direction: column;
+  }
+  .mcc {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+
+    font-size: 16px;
+    font-weight: 150;
+
+    margin-bottom: 30px;
+
+    margin-right: 1.67%;
+
+    text-align: left;
+    width: 100%;
+  }
+  .media-card-image {
+    aspect-ratio: 1/1;
+    width: 100%;
+    object-fit: cover;
+  }
+  .media-card-image3 {
+    height: 71.87%;
+    width: 100%;
+  }
+  .media-card-body {
+    font-size: 15px;
+    font-weight: 10;
+    text-align: left;
+    order: 2;
+  }
+  .mcb {
+    margin-top: 16px;
+  }
+  .mcb-container {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    font-weight: 35;
+    height: 100%;
+  }
+  .section-container {
+    background-color: rgb(244, 244, 244);
+    background-size: cover;
+    box-sizing: border-box;
+    aspect-ratio: 420/908;
+    width: 100%;
+  }
+  .content-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 100%;
+    height: 100%;
+  }
+  .ssb {
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+
+    width: 100%;
+  }
+  .ssb-title-container {
+    box-sizing: border-box;
+    color: rgb(47, 49, 50);
+    height: 42px;
+    width: 100%;
+    padding-bottom: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .ssb-title-text {
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 42px;
+
+    padding-bottom: 20px;
+  }
+  .ssb-media-tiles-container {
+    height: auto;
+    width: 100%;
+    margin-top: -12px;
+    padding-top: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 14px;
+
+    flex-wrap: wrap;
+  }
+  .item-2,
+  .item-3,
+  .item-4 {
+    display: none;
+  }
+  .item-0 {
+    display: flex;
+    background-image: url(https://resource.logitech.com/w_726,h_430,c_lfill,q_auto,f_auto,dpr_1.0/content/dam/logitech/en/homepage/product-grid/2024-update/ergo-series-horizontal-gallery-mobile-a.jpg?v=1);
+    width: 100%;
+    justify-content: center;
+    background-size: cover;
+    align-items: center;
+    flex-wrap: wrap;
+    aspect-ratio: 430/232.89;
+    object-fit: cover;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+  }
+  .item-1 {
+    display: flex;
+    width: 100%;
+    background-image: url(https://resource.logitech.com/w_726,h_860,c_lfill,q_auto,f_auto,dpr_2.0/content/dam/logitech/en/homepage/product-grid/2024-update/mx-master-series-vertical-gallery-mobile-b.jpg?v=1);
+    justify-content: center;
+    background-size: cover;
+    align-items: center;
+    flex-wrap: wrap;
+    aspect-ratio: 420/489;
+    object-fit: cover;
+    position: relative;
+    overflow: hidden;
+  }
+  .item-0:hover .overlay,
+  .item-1:hover .overlay {
+    opacity: 1;
+  }
+
+  .item-0:hover .overlay-text,
+  .item-1:hover .overlay-text .item-0:hover .span-animation {
+    opacity: 0;
+  }
+  .item-1:hover .span-animation {
+    opacity: 0;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.1s ease-in-out;
+  }
+  .overlay-text {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 0.05s ease-in-out;
+  }
+  a {
+    text-decoration: none;
+  }
+
+  .sp-section-container {
+    width: 100%;
+  }
+  .sp-ij-section-container {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 60px;
+
+    width: 100%;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+  }
+  .title-sp {
+    height: 76px;
+    width: 100%;
+    font-size: 12px;
+  }
+  .sp-media-tiles {
+    aspect-ratio: 420/858.65;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .sptile2,
+  .sptile3 {
+    display: none;
+  }
+  .sptile1 {
+    display: flex;
+    width: 100%;
+    aspect-ratio: 420/758.65;
+
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .mouse {
+    width: 100%;
+    aspect-ratio: 420/262.89;
+    background-size: cover;
+
+    background-image: url(https://resource.logitech.com/w_726,h_430,c_lfill,q_auto,f_auto,dpr_1.0/content/dam/logitech/en/homepage/product-grid/2024-update/mice-horizontal-gallery-mobile-2-a.jpg?v=1);
+
+    transition: 0.7s ease;
+  }
+  .ipad {
+    width: 100%;
+    aspect-ratio: 420/530.78;
+    background-position: center;
+    background-image: url(https://resource.logitech.com/w_726,h_860,c_lfill,q_auto,f_auto,dpr_1.0/content/dam/logitech/en/homepage/product-grid/2024-update/ipad-keyboard-cases-vertical-gallery-mobile-2-b.jpg?v=1);
+    background-size: cover;
+    transition: 0.7s ease;
+  }
+  .mouse:hover,
+  .ipad:hover {
+    background-size: 120% 120%;
+  }
+  .mouse-text {
+    padding-top: 11.28%;
+    padding-left: 40%;
+    font-size: 15px;
+  }
+
+  .ipad-text {
+    padding-top: 11.28%;
+    padding-left: 35%;
+    font-size: 15px;
+  }
+  .dos-banner-container {
+    position: relative;
+    width: 100%;
+    height: 538.5px;
+    overflow: hidden;
+    margin-top: 80px;
+  }
+  .banner-wrapper {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+  }
+  .dos-banner {
+    position: relative;
+    flex: 0 0 100%;
+    height: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 538.5px;
+
+    background-size: cover;
+    display: flex;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+  }
+  .head-dos {
+    height: 240px;
+    text-align: center;
+    color: rgb(47, 49, 50);
+    font-weight: 2200;
+    padding-top: 160px;
+  }
+  .body-dos {
+    height: 162.5px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .btn-dos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin-top: 20px;
+  }
+  .btn-dos-container1 {
+    width: 32.41%;
+    height: 54px;
+    background-color: rgb(47, 49, 50);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn-dos-container1:hover {
+    background-color: transparent;
+
+    border: 2px solid rgb(47, 49, 50);
+    transition: 0.3s;
+  }
+
+  .btn-dos-container2 {
+    width: 32.41%;
+    height: 54px;
+    background-color: rgb(47, 49, 50);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn-dos-container2:hover {
+    background-color: transparent;
+
+    border: 2px solid rgb(47, 49, 50);
+    transition: 0.3s;
+  }
+
+  .dos-banner-container button {
+    display: none;
+  }
+  #2.dos-banner {
+    display: none;
+  }
+
+  .footer {
+    background-color: rgb(37, 42, 44);
+    width: 100%;
+    height: 680px;
+    padding-top: 100px;
+    padding-bottom: 20px;
+  }
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 100%;
+  }
+  .footer-links {
+    display: flex;
+
+    width: 100%;
+    height: 324px;
+  }
+
+  .links-items {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 48.09%;
+
+    padding-bottom: 30px;
+    color: white;
+  }
+  #1.links-items {
+    height: 292px;
+  }
+  #2.links-items {
+    height: 202px;
+  }
+  #3.links-items {
+    height: 122px;
+  }
+  .links-items h3 {
+    padding-bottom: 20px;
+    margin-top: none;
+    font-size: 11px;
+  }
+  .lii {
+    height: 240px;
+    width: 90px;
+    font-size: 12px;
+  }
+  .ul1 {
+    height: 220px;
+    width: 90px;
+    font-size: 12px;
+    padding-left: 0px;
+    list-style-type: none;
+    list-style-position: outside;
+    list-style-image: none;
+    padding-inline-start: 0px;
+  }
+  .li-item {
+    text-align: left;
+    margin-bottom: 20px;
+    width: 90px;
+    height: 22px;
+    list-style-type: none;
+    list-style-position: outside;
+    list-style-image: none;
+    text-decoration: none;
+    color: white;
+  }
+  .footer-socials {
+    box-sizing: border-box;
+    width: 100%;
+    height: 181.8px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+    border-top-color: rgba(255, 255, 255, 0.3);
+    border-top-width: 0.8px;
+    border-top-style: solid;
+  }
+  .email-ctn {
+    width: 92.85%;
+    height: 95px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+  .box-gmail {
+    width: 100%;
+    height: 45px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .box-gmail input {
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    width: 86.5%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .box-gmail input::placeholder {
+    color: rgb(105, 113, 114);
+    font-size: 11px;
+  }
+  .checkmark-container {
+    margin-top: 10px;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+  .checkmark-text {
+    color: rgb(195, 198, 200);
+    margin: none;
+    font-size: 14px;
+  }
+  .email-sub {
+    height: 45px;
+    width: 13.5%;
+    background-color: rgb(220, 253, 0);
+    border: none;
+    cursor: pointer;
+  }
+  .social-btns {
+    width: 100%;
+    height: 56px;
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .fac {
+    box-sizing: border-box;
+    width: 24px;
+    height: 26px;
+    margin-right: 24px;
+  }
+  .fac-2 {
+    box-sizing: border-box;
+    width: 24px;
+    height: 26px;
+  }
+  .fac a img {
+    width: 24px;
+    height: 26px;
+    background-size: cover;
+  }
+  .fac-2 a img {
+    width: 24px;
+    height: 26px;
+    background-size: cover;
+  }
+}
+
+@media only screen and (max-width: 345px) and (min-width: 300px) {
+  .a-btns {
+    display: flex;
+    flex-direction: column;
+    height: 132px;
+    justify-content: start;
+    padding-left: 3.6%;
+
+    width: 100%;
+  }
+  .banner-content-container {
+    box-sizing: border-box;
+    margin-right: 24px;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: calc(100% - 24px);
+    height: 372px;
+  }
+  .banner-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 3.6%;
+    height: 100%;
+  }
+  .text-banner {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  .text h1 {
+    text-align: center;
+    font-size: 25px;
+  }
+  .text p {
+    font-size: 10px;
+    font-weight: 150;
+    text-align: center;
+  }
+  .empty-banner {
+    height: 75vh;
+    width: 75vh;
+  }
+
+  .button-container-learn {
+    margin-top: 20px;
+    width: 60%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+  }
+  .button-container-learn:hover {
+    background-color: transparent;
+
+    border: 1px solid white;
+    transition: 0.3s;
+  }
+  .learn-more {
+    width: 100%;
+    display: flex;
+    font-size: 12px;
+    justify-content: center;
+    flex-direction: row;
+    height: 81.8%;
+  }
+  .shop-now {
+    width: 100%;
+    display: flex;
+    font-size: 12px;
+    justify-content: center;
+    flex-direction: row;
+    height: 81.8%;
+  }
+  .button-container-shop {
+    margin-top: 20px;
+    width: 60%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+  }
+  .button-container-shop:hover {
+    background-color: transparent;
+
+    border: 1px solid white;
+    transition: 0.3s;
+  }
+}

@@ -1,0 +1,858 @@
+@media only screen and (min-width: 1044px) {
+  * {
+    font-family: brown, Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+  }
+
+  body {
+    max-width: 100%;
+    margin: 0px;
+    overflow-x: hidden;
+  }
+
+  .header1 {
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 48px;
+  }
+  .header-container {
+    box-sizing: border-box;
+    margin-left: 6.28%;
+    margin-right: 6.28%;
+    padding-left: 2.732%;
+
+    height: 48px;
+    padding-right: 2.732%;
+    width: calc(100% - 6.28% - 6.28%);
+  }
+  .header-grid {
+    display: flex;
+    width: 100%;
+  }
+  .header-grid a {
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    width: 100px;
+    padding-bottom: 11px;
+    padding-right: 11px;
+    padding-top: 11px;
+  }
+  .header-logo {
+    display: flex;
+    box-sizing: border-box;
+    width: 84px;
+    height: 22px;
+    padding-right: 17px;
+    border-right-color: rgb(179, 179, 179);
+    border-right-width: 0.8px;
+    border-right-style: solid;
+  }
+  .header-logo img {
+    width: 66px;
+    height: 16px;
+  }
+  .brand-switcher {
+    height: 48px;
+    min-width: 100px;
+    width: 183px;
+    margin-right: 20px;
+  }
+  .trigger {
+    appearance: button;
+    box-sizing: border-box;
+    height: 26px;
+    width: 83px;
+
+    padding-bottom: 11px;
+    border: none;
+    background-color: white;
+    margin-top: 11px;
+    color: rgb(105, 113, 114);
+  }
+  .trigger-icon {
+    height: 17px;
+    width: 12px;
+    margin-top: 11px;
+  }
+  .empty {
+    box-sizing: border-box;
+    width: 590px;
+    height: 48px;
+    margin-right: 20px;
+  }
+  .ls {
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-end;
+    margin-left: 102px;
+    margin-right: 20px;
+
+    width: 183px;
+    height: 48px;
+  }
+  .flag-link {
+    align-items: center;
+    display: flex;
+    width: 55px;
+    height: 48px;
+  }
+  .hamburger-container {
+    display: none;
+  }
+  .searchbtn-container {
+    display: none;
+  }
+
+  .main {
+    height: 536.4px;
+    overflow-x: hidden;
+    width: 100%;
+    background-image: url(mx-brio-hpb-desktop.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+  }
+  .navbar a {
+    padding-top: 37px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    color: white;
+    font-weight: 600;
+    position: relative;
+    text-decoration: none;
+    padding-bottom: 37px;
+  }
+  .navbar a::after {
+    content: "";
+    position: absolute;
+    width: 75%;
+    height: 2px;
+    bottom: 5px;
+    left: 13px;
+    background-color: white;
+    border-radius: 5px;
+    transform: translateY(5px);
+    transition: 1s;
+    opacity: 0;
+  }
+  .navbar a:hover::after {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .logo-main {
+    padding-top: 20px;
+
+    padding-bottom: 20px;
+
+    width: 135px;
+    height: 36px;
+    background-image: url(Logitech_logo-copy-1024x311.png);
+    background-size: cover;
+  }
+  .banner content {
+    height: 340px;
+  }
+  .main-navbar {
+    display: flex;
+    height: 75px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .container-main-navbar {
+    box-sizing: border-box;
+    margin-left: 6.28%;
+    margin-right: 6.28%;
+    padding-left: 2.732%;
+    padding-right: 2.732%;
+    width: calc(100% - 6.28% - 6.28%);
+  }
+
+  .logo-main-container {
+    padding-top: 20px;
+  }
+  form {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .box {
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 200px;
+    height: 35px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+  }
+  input {
+    width: 150px;
+    border: none;
+    outline: none;
+    background: none;
+  }
+  input::placeholder {
+    color: white;
+  }
+  .banner-content-container {
+    box-sizing: border-box;
+    margin-left: 6.28%;
+    margin-right: 6.28%;
+    padding-left: 2.732%;
+    padding-right: 2.732%;
+    width: calc(100% - 6.28% - 6.28%);
+    height: 461.4px;
+  }
+  .banner-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow-y: hidden;
+    height: 100%;
+  }
+  .text-banner {
+    display: flex;
+    flex-direction: column;
+
+    height: 75vh;
+    width: 75vh;
+  }
+  .empty-banner {
+    height: 75vh;
+    width: 75vh;
+  }
+  .a-btns {
+    display: flex;
+    flex-direction: row;
+    height: 75vh;
+    justify-content: start;
+
+    width: 100vh;
+  }
+  .button-container-learn {
+    margin-top: 20px;
+    width: 164px;
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+  }
+  .button-container-learn:hover {
+    background-color: transparent;
+
+    border: 1px solid white;
+    transition: 0.3s;
+  }
+  .learn-more {
+    width: 200px;
+    height: 74px;
+  }
+  .shop-now {
+    width: 200px;
+    height: 74px;
+  }
+  .button-container-shop {
+    margin-top: 20px;
+    width: 164px;
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+  }
+  .button-container-shop:hover {
+    background-color: transparent;
+
+    border: 1px solid white;
+    transition: 0.3s;
+  }
+
+  .media-cards {
+    margin-top: 80px;
+    box-sizing: border-box;
+    margin-left: 6.28%;
+    margin-right: 6.28%;
+    padding-left: 2.732%;
+    padding-right: 2.732%;
+    width: calc(100% - 6.28% - 6.28%);
+    height: 583px;
+  }
+  .cards-container {
+    display: flex;
+    flex: wrap;
+    width: 100%;
+
+    height: 583px;
+  }
+  .text h1 {
+    text-align: left;
+    font-size: 60px;
+  }
+  .text p {
+    font-size: 20px;
+    font-weight: 300;
+    text-align: left;
+  }
+
+  .mcc {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+
+    font-size: 16px;
+    font-weight: 150;
+    height: 537.987px;
+    margin-bottom: 4.167%;
+
+    margin-right: 1.67%;
+
+    text-align: left;
+    width: calc(33.34% - 1.67%);
+    height: calc(100% - 4.167%);
+  }
+  .media-card-image {
+    aspect-ratio: 1/1;
+    width: 100%;
+    object-fit: cover;
+  }
+  .media-card-image3 {
+    height: 71.87%;
+    width: 100%;
+  }
+  .media-card-body {
+    font-size: 15px;
+    font-weight: 10;
+    text-align: left;
+    order: 2;
+  }
+  .mcb {
+    margin-top: 16px;
+  }
+  .mcb-container {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    font-weight: 35;
+  }
+  .free-padding {
+    width: 100%;
+    height: 80px;
+  }
+  .section-container {
+    background-color: rgb(244, 244, 244);
+    background-size: cover;
+    box-sizing: border-box;
+    height: 911px;
+    width: 100%;
+  }
+  .content-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 6.28%;
+    margin-right: 6.28%;
+    padding-left: 2.732%;
+    padding-right: 2.732%;
+    width: calc(100% - 6.28% - 6.28%);
+    height: 911px;
+    max-width: 1280px;
+  }
+  .ssb {
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+    height: 911px;
+    width: 100%;
+  }
+  .ssb-title-container {
+    box-sizing: border-box;
+    color: rgb(47, 49, 50);
+    height: 76px;
+    width: 100%;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  .ssb-title-text {
+    margin-left: 250px;
+    margin-right: 250px;
+    height: 76px;
+    max-width: 700px;
+  }
+  .ssb-media-tiles-container {
+    height: 687px;
+    width: 100%;
+    margin-top: -12px;
+    padding-top: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 14px;
+
+    flex-wrap: wrap;
+  }
+  .item-0 {
+    background-image: url(https://resource.logitech.com/w_440,h_371,c_lfill,q_auto,f_auto,dpr_2.0/content/dam/logitech/en/homepage/product-grid/2024-update/ergo-series-horizontal-gallery-desktop-a.jpg?v=1);
+    background-size: cover;
+  }
+  .item-1 {
+    background-image: url(https://resource.logitech.com/w_440,h_371,c_lfill,q_auto,f_auto,dpr_1.0/content/dam/logitech/en/homepage/product-grid/2024-update/mx-master-series-vertical-gallery-desktop-b.jpg?v=1);
+    background-size: cover;
+  }
+  .item-0,
+  .item-1,
+  .item-2,
+  .item-3 {
+    display: flex;
+    width: 32.22%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 47.67%;
+    object-fit: cover;
+    position: relative;
+    overflow: hidden;
+  }
+  .item-0:hover .overlay,
+  .item-1:hover .overlay,
+  .item-2:hover .overlay,
+  .item-3:hover .overlay {
+    opacity: 1;
+  }
+  .item-4:hover .overlay {
+    opacity: 1;
+  }
+  .item-0:hover .overlay-text,
+  .item-1:hover .overlay-text,
+  .item-2:hover .overlay-text,
+  .item-3:hover .overlay-text {
+    opacity: 1;
+  }
+  .item-4:hover .overlay-text {
+    opacity: 1;
+  }
+  .item-0:hover .span-animation {
+    opacity: 0;
+  }
+  .item-1:hover .span-animation,
+  .item-2:hover .span-animation,
+  .item-3:hover .span-animation,
+  .item-4:hover .span-animation {
+    opacity: 0;
+  }
+
+  .item-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 64.44%;
+    flex-wrap: wrap;
+    height: 47.67%;
+    object-fit: cover;
+    position: relative;
+    overflow: hidden;
+
+    background-size: cover;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.1s ease-in-out;
+  }
+  .overlay-text {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 0.05s ease-in-out;
+  }
+  a {
+    text-decoration: none;
+  }
+
+  .sp-section-container {
+    width: 100%;
+  }
+  .sp-ij-section-container {
+    margin-left: 6.28%;
+    margin-right: 6.28%;
+    padding-left: 2.732%;
+    padding-right: 2.732%;
+    width: calc(100% - 6.28% - 6.28%);
+    box-sizing: border-box;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+  }
+  .title-sp {
+    height: 76px;
+    width: 100%;
+  }
+  .sp-media-tiles {
+    aspect-ratio: 1200/675;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .sptile1,
+  .sptile2,
+  .sptile3 {
+    display: flex;
+    width: 32.22%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .mouse {
+    background-image: url(https://resource.logitech.com/w_440,h_495,c_lfill,q_auto,f_auto,dpr_1.0/content/dam/logitech/en/homepage/product-grid/2024-update/mice-vertical-gallery-desktop-2-a.jpg?v=1);
+  }
+  .ipad {
+    background-image: url(https://resource.logitech.com/w_440,h_248,c_lfill,q_auto,f_auto,dpr_1.0/content/dam/logitech/en/homepage/product-grid/2024-update/ipad-keyboard-cases-horizontal-gallery-desktop-2-b.jpg?v=1);
+  }
+  .keyboard {
+    background-image: url(https://resource.logitech.com/w_440,h_248,c_lfill,q_auto,f_auto,dpr_1.0/content/dam/logitech/en/homepage/product-grid/2024-update/keyboards-horizontal-gallery-desktop-2-c.jpg?v=1);
+  }
+  .combo {
+    background-image: url(https://resource.logitech.com/w_440,h_495,c_lfill,q_auto,f_auto,dpr_1.0/content/dam/logitech/en/homepage/product-grid/2024-update/combo-vertical-gallery-desktop-2-d.jpg?v=1);
+  }
+  .mouse,
+  .combo,
+  .headset {
+    width: 100%;
+    height: 65.63%;
+    background-size: 100% 100%;
+    background-position: center;
+    transition: 0.7s ease;
+  }
+  .ipad,
+  .keyboard,
+  .webcam {
+    width: 100%;
+    height: 31.36%;
+    background-size: 100% 100%;
+    background-position: center;
+    transition: 0.7s ease;
+  }
+  .mouse:hover,
+  .combo:hover,
+  .headset:hover,
+  .ipad:hover,
+  .keyboard:hover,
+  .webcam:hover {
+    background-size: 120% 120%;
+  }
+  .mouse-text,
+  .combo-text,
+  .headset-text,
+  .ipad-text,
+  .keyboard-text,
+  .webcam-text {
+    padding-top: 11.28%;
+    padding-left: 40%;
+  }
+  .dos-banner-container{
+    position: relative;
+    width: 100%;
+    height: 634.5px; 
+    overflow: hidden;
+  }
+  .banner-wrapper{
+    
+      display: flex;
+      transition: transform 0.5s ease-in-out;
+      width: 100%;
+    
+  }
+  .dos-banner {
+    position: relative;
+    flex: 0 0 100%; 
+    height: 100%; 
+    padding-top: 100px;
+    padding-bottom: 100px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 634.5px;
+    
+    background-size: cover;
+    display: flex;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+  .dos-main {
+    box-sizing: border-box;
+
+    padding-left: 40px;
+    padding-right: 40px;
+
+    width: 34.56%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .head-dos {
+    height: 240px;
+    text-align: center;
+    color: rgb(47, 49, 50);
+    font-weight: 2200;
+    padding-top: 160px;
+  }
+  .body-dos {
+    height: 162.5px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .btn-dos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin-top: 20px;
+  }
+  .btn-dos-container1 {
+    width: 32.41%;
+    height: 54px;
+    max-height: 54px;
+    min-width: 138px;
+    background-color: rgb(47, 49, 50);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn-dos-container1:hover {
+    background-color: transparent;
+
+    border: 2px solid rgb(47, 49, 50);
+    transition: 0.3s;
+  }
+  .btn-dos-container2{
+    width: 32.41%;
+    height: 54px;
+    max-height: 54px;
+    min-width: 138px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn-dos-container2:hover {
+    background-color: transparent;
+
+    border: 2px solid rgb(255, 255, 255);
+    transition: 0.3s;
+  }
+
+
+  .dos-banner-container button {
+    position: absolute;
+    top: 50%; 
+    transform: translateY(-50%); 
+    background-color: transparent; 
+    color: black;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 10; 
+  }
+  
+  .prev {
+    left: 10px;
+  }
+  
+  .next {
+    right: 10px;
+  }
+
+  .footer {
+    background-color: rgb(37, 42, 44);
+    width: 100%;
+    height: 640px;
+    padding-top: 100px;
+    padding-bottom: 20px;
+  }
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 6.28%;
+    margin-right: 6.28%;
+    padding-left: 2.732%;
+    padding-right: 2.732%;
+    width: calc(100% - 6.28% - 6.28%);
+
+    max-width: 1280px;
+    height: 520px;
+  }
+  .footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 1220px;
+    height: 316px;
+  }
+  @media screen and (max-width: 1300px) and (min-width: 1035px) {
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: stretch;
+      width: 94.18%;
+      height: 316px;
+    }
+  }
+  .links-items {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 23.36%;
+    margin-right: 7%;
+    padding-right: 8.3%;
+    padding-bottom: 20px;
+    color: white;
+  }
+  .links-items h3 {
+    padding-bottom: 20px;
+    margin-top: none;
+    font-size: 11px;
+  }
+  .lii {
+    height: 252px;
+    width: 90px;
+    font-size: 12px;
+  }
+  .ul1 {
+    height: 252px;
+    width: 90px;
+    font-size: 12px;
+    padding-left: 0px;
+    list-style-type: none;
+    list-style-position: outside;
+    list-style-image: none;
+    padding-inline-start: 0px;
+  }
+  .li-item {
+    text-align: left;
+    margin-bottom: 20px;
+    width: 90px;
+    height: 22px;
+    list-style-type: none;
+    list-style-position: outside;
+    list-style-image: none;
+    text-decoration: none;
+    color: white;
+  }
+  .footer-socials {
+    box-sizing: border-box;
+    width: 100%;
+    height: 125px;
+    padding-top: 30px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-top-color: rgba(255, 255, 255, 0.3);
+    border-top-width: 0.8px;
+    border-top-style: solid;
+  }
+  .email-ctn {
+    width: 390px;
+    height: 95px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+  .box-gmail {
+    width: 345px;
+    height: 45px;
+    background-color: white;
+    display: flex;
+  }
+  .box-gmail input {
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    width: 345px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .box-gmail input::placeholder {
+    color: rgb(105, 113, 114);
+  }
+  .checkmark-container {
+    margin-top: 10px;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+  .checkmark-text {
+    color: rgb(195, 198, 200);
+    margin: none;
+    font-size: 14px;
+  }
+  .email-sub {
+    height: 45px;
+    width: 45px;
+    background-color: rgb(220, 253, 0);
+    border: none;
+    cursor: pointer;
+  }
+  .social-btns {
+    width: 120px;
+    height: 26px;
+    display: flex;
+    flex-direction: row;
+  }
+  .fac {
+    box-sizing: border-box;
+    width: 24px;
+    height: 26px;
+    margin-right: 24px;
+  }
+  .fac-2 {
+    box-sizing: border-box;
+    width: 24px;
+    height: 26px;
+  }
+  .fac a img {
+    width: 24px;
+    height: 26px;
+    background-size: cover;
+  }
+  .fac-2 a img {
+    width: 24px;
+    height: 26px;
+    background-size: cover;
+  }
+
+}

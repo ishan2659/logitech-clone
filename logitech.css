@@ -1,0 +1,705 @@
+* {
+  font-family: brown, Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 100%;
+  margin: 0px;
+  overflow-x: hidden;
+}
+
+.header1 {
+  box-sizing: border-box;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 48px;
+}
+.header-container {
+  box-sizing: border-box;
+  margin-left: 6.28%;
+  margin-right: 6.28%;
+  padding-left: 2.732%;
+  width: calc(100% - 6.28% - 6.28%);
+  height: 48px;
+  padding-right: 2.732%;
+}
+.header-grid {
+  display: flex;
+  width: 100%;
+}
+.header-grid a {
+  align-items: center;
+  justify-content: center;
+  height: 48px;
+  width: 100px;
+  padding-bottom: 11px;
+  padding-right: 11px;
+  padding-top: 11px;
+}
+.header-logo {
+  display: flex;
+  box-sizing: border-box;
+  width: 84px;
+  height: 22px;
+  padding-right: 17px;
+  border-right-color: rgb(179, 179, 179);
+  border-right-width: 0.8px;
+  border-right-style: solid;
+}
+.header-logo img {
+  width: 66px;
+  height: 16px;
+}
+.brand-switcher {
+  height: 48px;
+  min-width: 100px;
+  width: 183px;
+  margin-right: 20px;
+}
+.trigger {
+  appearance: button;
+  box-sizing: border-box;
+  height: 26px;
+  width: 83px;
+
+  padding-bottom: 11px;
+  border: none;
+  background-color: white;
+  margin-top: 11px;
+  color: rgb(105, 113, 114);
+}
+.trigger-icon {
+  height: 17px;
+  width: 12px;
+  margin-top: 11px;
+}
+.empty {
+  box-sizing: border-box;
+  width: 590px;
+  height: 48px;
+  margin-right: 20px;
+}
+.ls {
+  display: flex;
+  align-items: stretch;
+  justify-content: flex-end;
+  margin-left: 102px;
+  margin-right: 20px;
+  width: 183px;
+  height: 48px;
+}
+.flag-link {
+  align-items: center;
+  display: flex;
+  width: 55px;
+  height: 48px;
+}
+.main {
+  height: 536.4px;
+  overflow-x: hidden;
+  width: 100%;
+  background-image: url(mx-brio-hpb-desktop.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+.navbar a {
+  padding-top: 37px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  color: white;
+  font-weight: 600;
+  position: relative;
+  text-decoration: none;
+  padding-bottom: 37px;
+}
+.navbar a::after {
+  content: "";
+  position: absolute;
+  width: 75%;
+  height: 2px;
+  bottom: 5px;
+  left: 13px;
+  background-color: white;
+  border-radius: 5px;
+  transform: translateY(5px);
+  transition: 1s;
+  opacity: 0;
+}
+.navbar a:hover::after {
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo-main {
+  padding-top: 20px;
+
+  padding-bottom: 20px;
+
+  width: 135px;
+  height: 36px;
+  background-image: url(Logitech_logo-copy-1024x311.png);
+  background-size: cover;
+}
+.banner content {
+  height: 340px;
+}
+.main-navbar {
+  display: flex;
+  height: 75px;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+.container-main-navbar{
+  box-sizing: border-box;
+  margin-left: 6.28%;
+  margin-right: 6.28%;
+  padding-left: 2.732%;
+  padding-right: 2.732%;
+  width: calc(100% - 6.28% - 6.28%);
+}
+
+.logo-main-container {
+  padding-top: 20px;
+}
+form {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  background-color: rgba(255, 255, 255, 0.3);
+  width: 200px;
+  height: 35px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px;
+}
+input {
+  width: 150px;
+  border: none;
+  outline: none;
+  background: none;
+}
+input::placeholder {
+  color: white;
+}
+.banner-content-container{
+  box-sizing: border-box;
+  margin-left: 6.28%;
+  margin-right: 6.28%;
+  padding-left: 2.732%;
+  padding-right: 2.732%;
+  width: calc(100% - 6.28% - 6.28%);
+  height: 461.4px;
+  overflow-x: hidden;
+}
+.banner-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  overflow-y: hidden;
+  height: 100%;
+}
+.text-banner {
+  display: flex;
+  flex-direction: column;
+
+  height: 75vh;
+  width: 75vh;
+}
+.empty-banner {
+  height: 75vh;
+  width: 75vh;
+}
+.a-btns {
+  display: flex;
+  flex-direction: row;
+  height: 75vh;
+  justify-content: start;
+
+  width: 100vh;
+}
+.button-container-learn {
+  margin-top: 20px;
+  width: 164px;
+  height: 54px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  
+
+
+}
+.button-container-learn:hover{
+  background-color: transparent;
+  
+  border: 1px solid white;
+  transition: 0.3s;
+
+  
+}
+.learn-more {
+  width: 200px;
+  height: 74px;
+}
+.shop-now {
+  width: 200px;
+  height: 74px;
+}
+.button-container-shop {
+  margin-top: 20px;
+  width: 164px;
+  height: 54px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.button-container-shop:hover{
+  background-color: transparent;
+  
+  border: 1px solid white;
+  transition: 0.3s;
+}
+.media-cards {
+  margin-top: 80px;
+  box-sizing: border-box;
+  margin-left: 6.28%;
+  margin-right: 6.28%;
+  padding-left: 2.732%;
+  padding-right: 2.732%;
+  width: calc(100% - 6.28% - 6.28%);
+  height: 583px;
+}
+.cards-container {
+  display: flex;
+  flex: wrap;
+  
+  height: 583px;
+}
+.mcc {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+
+  font-size: 16px;
+  font-weight: 150;
+  height: 537.987px;
+  margin-bottom: 50px;
+
+  margin-right: 20px;
+
+  text-align: left;
+
+  
+}
+.media-card-image {
+  height: 387px;
+  width: 387px;
+}
+.media-card-image3 {
+  margin: none;
+  height: 387px;
+  width: 387px;
+}
+.media-card-body {
+  font-size: 15px;
+  font-weight: 10;
+  text-align: left;
+  order: 2;
+}
+.mcb {
+  margin-top: 16px;
+}
+.mcb-container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+  font-weight: 35;
+}
+.section-container {
+  background-color: rgb(244, 244, 244);
+  background-size: cover;
+  box-sizing: border-box;
+  height: 911px;
+  width: 100%
+}
+.content-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 6.28%;
+  margin-right: 6.28%;
+  padding-left: 2.732%;
+  padding-right: 2.732%;
+  width: calc(100% - 6.28% - 6.28%);
+  height: 911px;
+  max-width: 1280px;
+  
+}
+.ssb {
+  display: flex;
+  flex-direction: column;
+  padding-top: 80px;
+  height: 911px;
+  width: 1200px;
+}
+.ssb-title-container {
+  box-sizing: border-box;
+  color: rgb(47, 49, 50);
+  height: 76px;
+  width: 1200px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.ssb-title-text {
+  margin-left: 250px;
+  margin-right: 250px;
+  height: 76px;
+  max-width: 700px;
+}
+.ssb-media-tiles-container {
+  height: 687px;
+  width: 1200px;
+  margin-top: -12px;
+  padding-top: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 14px;
+
+  flex-wrap: wrap;
+}
+.item-0,
+.item-1,
+.item-2,
+.item-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 327.5px;
+  width: 386.63px;
+}
+.item-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 327.5px;
+  width: 772.36px;
+  background-size: cover;
+}
+a {
+  text-decoration: none;
+}
+.sp-section-container {
+  height: 1011px;
+  width: 100vw;
+}
+.sp-ij-section-container {
+  height: 1011px;
+  width: 1200px;
+  margin-right: 92px;
+  margin-left: 92px;
+  padding-right: 40px;
+  padding-left: 40px;
+  box-sizing: border-box;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+}
+.sp-media-tiles {
+  height: 675px;
+  width: 1200px;
+  display: flex;
+  flex-direction: row;
+}
+.sptile1,
+.sptile2,
+.sptile3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.mouse,
+.combo,
+.headset {
+  width: 387px;
+  height: 443px;
+  background-size: 100% 100%;
+  background-position: center;
+  transition: 0.7s ease;
+}
+.ipad,
+.keyboard,
+.webcam {
+  width: 387px;
+  height: 212px;
+  background-size: 100% 100%;
+  background-position: center;
+  transition: 0.7s ease;
+}
+.mouse:hover,
+.combo:hover,
+.headset:hover,
+.ipad:hover,
+.keyboard:hover,
+.webcam:hover {
+  background-size: 120% 120%;
+  
+}
+.mouse-text,
+.combo-text,
+.headset-text,
+.ipad-text,
+.keyboard-text,
+.webcam-text {
+  padding-top: 50px;
+  padding-left: 173px;
+  padding-left: 173px;
+}
+.dos-banner {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 634.5px;
+  background-image: url(dfs-corporate-banner-desktop.webp);
+  background-size: cover;
+  display: flex;
+}
+.dos-main {
+  box-sizing: border-box;
+  margin-left: 598px;
+  margin-right: 568px;
+  padding-left: 40px;
+  padding-right: 40px;
+
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.head-dos {
+  height: 240px;
+  text-align: center;
+  font-weight: 2200;
+  padding-top: 160px;
+}
+.body-dos {
+  height: 162.5px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.btn-dos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  margin-top: 20px;
+
+  background-color: black;
+
+}
+.btn-dos:hover{
+  background-color: transparent;
+  
+  border: 2px solid rgb(0, 0, 0);
+  transition: 0.3s;
+}
+.footer {
+  background-color: rgb(37, 42, 44);
+  width: 100vw;
+  height: 640px;
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 92px;
+  margin-left: 92px;
+  padding-left: 40px;
+  padding-right: 40px;
+  width: 1280px;
+  max-width: 1280px;
+  height: 520px;
+}
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 1220px;
+  height: 316px;
+}
+.links-items {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 285px;
+  margin-right: 20px;
+  padding-right: 102px;
+  padding-bottom: 20px;
+  color: white;
+}
+.links-items h3 {
+  padding-bottom: 20px;
+  margin-top: none;
+  font-size: 11px;
+}
+.lii {
+  height: 252px;
+  width: 90px;
+  font-size: 12px;
+}
+.ul1 {
+  height: 252px;
+  width: 90px;
+  font-size: 12px;
+  padding-left: 0px;
+  list-style-type: none;
+  list-style-position: outside;
+  list-style-image: none;
+  padding-inline-start: 0px;
+}
+.li-item {
+  text-align: left;
+  margin-bottom: 20px;
+  width: 90px;
+  height: 22px;
+  list-style-type: none;
+  list-style-position: outside;
+  list-style-image: none;
+  text-decoration: none;
+  color: white;
+}
+.footer-socials {
+  box-sizing: border-box;
+  width: 1200px;
+  height: 95px;
+  padding-top: 30px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  border-top-color: rgba(255, 255, 255, 0.3);
+  border-top-width: 0.8px;
+  border-top-style: solid;
+}
+.social-btns {
+  width: 120px;
+  height: 26px;
+  display: flex;
+  flex-direction: row;
+}
+.fac {
+  box-sizing: border-box;
+  width: 24px;
+  height: 26px;
+  margin-right: 24px;
+}
+.fac-2 {
+  box-sizing: border-box;
+  width: 24px;
+  height: 26px;
+}
+.fac a img {
+  width: 24px;
+  height: 26px;
+  background-size: cover;
+}
+.fac-2 a img {
+  width: 24px;
+  height: 26px;
+  background-size: cover;
+}
+
+/*@media screen and (max-width: 768px) and (min-width: 350px) {
+  .main {
+    height: 512px;
+    width: 100vw;
+    background-image: url(https://resource.logitech.com/w_420,h_1024,c_limit,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/logitech/en/homepage/mx-brio-hpb-mobile.jpg?v=1);
+    background-size: cover;
+  }
+  .empty-banner {
+    height: 0px;
+    width: 0px;
+  }
+
+  .header1,
+  .header-containe,
+  .header-grid,
+  .header-grid a,
+  .header-logo,
+  .header-logo img,
+  .brand-switcher,
+  .trigger,
+  .trigger-icon,
+  .empty,
+  .ls,
+  .flag-link {
+    visibility: none;
+  }
+  .navbar,
+  .searchbar {
+    display: none;
+  }
+  .text{
+    width: 350px;
+
+  }
+  .text h1 {
+    text-align: center;
+    font-size: 32px;
+
+    padding-left: 40px;
+
+    height: 64px;
+    width: 290px;
+  }
+  .text p{
+    text-align: center;
+    padding-left: 40px;
+    height: 123px;
+    width: 290px;
+    font-size: 16px;
+
+  }
+  .cards-container{
+
+    width: 314px;
+    height: 1467px;
+    
+    margin: none;
+
+
+  }
+  .media-cards{
+    margin: none;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .mcc{
+    width: 290px;
+    height: 445.73px;
+  }
+}*/
